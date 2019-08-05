@@ -1,3 +1,8 @@
+"""
+
+Program to find position of given input items from a given input string and print position of each item in separate line
+
+"""
 a,b = [],[]
 inp = input().split()
 for i in range(0,int(inp[0])):
@@ -14,8 +19,6 @@ for i in range(0, int(inp[1])):
             d.append(j+1)
             co = co + 1
     c.append(co)
-#print(c)
-#print(d)
 e,f=0,0
 for i in range(0,len(c)):
     f = f + c[i]
